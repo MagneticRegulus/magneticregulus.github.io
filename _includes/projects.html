@@ -1,0 +1,30 @@
+<div class="projects">
+{%- if site.posts.size > 0 -%}
+    <h2 class="projects-heading">Personal Projects</h2>
+    <dl class="project-list">
+        {%- for post in site.posts -%}
+        <dt>
+            <!--small>{{ post.date | date: "%-d %B %Y" }}</small-->
+            <h3 style="margin-bottom:0px">
+            <a class="project-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+            </h3>
+        </dt>
+        <dd style="margin-left: 0px; margin-bottom: 10px;">
+            {%- if site.show_excerpts -%}
+                <small>{{ post.excerpt }}</small>
+            {%- endif -%}
+            <br/>
+            {% if post.tags %}
+                <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+            {% endif %}
+        </dd>
+        {%- endfor -%}
+    </dl>
+{%- endif -%}
+</div>
+
+<!--
+    Add paginator when there are too many?
+-->

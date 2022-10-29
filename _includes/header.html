@@ -1,0 +1,24 @@
+<header>
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+    {% if page.layout != "post" %}
+        <img style="border-radius: 50%; width: 200px; margin-right: auto; margin-left: auto; display: block;" src="{% link assets/logo.jpg %}" alt="Logo" />
+        <p style="margin-top: 10px;">{{ site.description | default: site.github.project_tagline }}</p>
+    {% else %}
+        <h4><a href="{{ "/" | absolute_url }}">← Back to About Me</a></h4>
+        <p style="margin-top: 10px;"><em>{{ page.tagline | page.excerpt | site.description | default: site.github.project_tagline }}</em></p>
+    {% endif %}
+
+    {% if site.github.is_project_page %}
+        <p class="view">
+            <a href="{{ page.repo_url | default: site.github.repository_url }}">View {{ page.project_title | default: "this Project"}} on GitHub
+                <br/>
+                <small>{{ page.repo_name | default: site.github.repository_nwo }}</small>
+            </a>
+        </p>
+    {% endif %}
+
+    {% if page.layout == "post" and page.read_more_url %}
+        <p class="view"><a href="{{ page.read_more_url }}">{{ page.read_more | default: "Read more"}}<br/><small>{{ page.read_more_name }}</small></a></p>
+    {% endif %}
+  </header>

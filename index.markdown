@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Magnetic Regulus
 ---
 
 ## [About my work →](./about)

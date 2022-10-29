@@ -11,6 +11,7 @@ repo_url: https://github.com/MagneticRegulus/flight-of-the-bumble
 read_more: "Play the game"
 read_more_name: magneticregulus.com/flight-of-the-bumble-game
 read_more_url: https://www.magneticregulus.com/flight-of-the-bumble-game
+is_project_page: true
 ---
 
 I've played video games for as long as I can remember, so it was only a matter of time that I tried my hand at creating some myself.

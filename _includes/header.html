@@ -1,7 +1,7 @@
 <header>
     <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-    {% if page.layout != "post" %}
+    {% if page.layout == "home" %}
         <img style="border-radius: 50%; width: 200px; margin-right: auto; margin-left: auto; display: block;" src="{% link assets/logo.jpg %}" alt="Logo" />
         <p style="margin-top: 10px;">{{ site.description | default: site.github.project_tagline }}</p>
     {% else %}
@@ -9,7 +9,7 @@
         <p style="margin-top: 10px;"><em>{{ page.tagline | page.excerpt | site.description | default: site.github.project_tagline }}</em></p>
     {% endif %}
 
-    {% if site.github.is_project_page %}
+    {% if page.is_project_page %}
         <p class="view">
             <a href="{{ page.repo_url | default: site.github.repository_url }}">View {{ page.project_title | default: "this Project"}} on GitHub
                 <br/>

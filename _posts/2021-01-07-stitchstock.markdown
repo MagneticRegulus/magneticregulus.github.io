@@ -10,6 +10,7 @@ repo_url: https://github.com/MagneticRegulus/ThreadManagementApp
 read_more: "Read the detailed project summary"
 read_more_name: magneticregulus.com/ThreadManagementApp
 read_more_url: https://www.magneticregulus.com/ThreadManagementApp
+is_project_page: true
 ---
 
 I do a lot of cross-stitching. I'm not particularly artistic; cross-stitching is essentially pixel art with thread. But it's a nice way to relax. There's something about tactile art that really makes it worthwhile.

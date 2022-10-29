@@ -11,6 +11,7 @@ repo_url: https://github.com/MagneticRegulus/ConwaysGame
 read_more: "Read my development journal"
 read_more_name: magneticregulus.com/ConwaysGame
 read_more_url: https://www.magneticregulus.com/ConwaysGame
+is_project_page: true
 ---
 
 So, we had a unit in Uni where we had to build [Conway's Game of Life][conway]. However, our professors gave us this task before we tackled "the Big O" problem. Every group's programs had massive memory problems or tried to fit an "infinite" grid of squares into 2D arrays (in Java).

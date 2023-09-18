@@ -1,5 +1,5 @@
 <header>
-    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.env.SITE_TITLE | default: site.title }}</a></h1>
 
     {% if page.layout == "home" %}
         <img style="border-radius: 50%; width: 200px; margin-right: auto; margin-left: auto; display: block;" src="{% link assets/logo.jpg %}" alt="Logo" />

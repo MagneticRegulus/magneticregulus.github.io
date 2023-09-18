@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Magnetic Regulus
+title: Maddie (MSwDev)
 author: MagneticRegulus
 email: hello@magneticregulus.com
-description: >- # this means to ignore newlines until "baseurl:"
- I'm a Wellington-based software engineer (MSwDev) with full-stack web development
- experience (a lot), mobile development experience (some), and Unity
- experience (a sprinkle).
+description: >- # this means to ignore newlines until "more:"
+ I'm a Wellington-based software engineer with full-stack web development
+ experience, primarily in .NET & .NET Core. I also have (some) mobile development experience and (a little) Unity
+ experience. 
+more: I love writing code that enriches people's lives, and right now, I'm working for the scientists at Manaaki Whenua - Landcare Research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.magneticregulus.com"
 domain: "magneticregulus.com"

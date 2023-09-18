@@ -4,6 +4,14 @@ title: "Things I've worked on"
 permalink: /about/
 ---
 
+## [Garden Bird Survey →](https://gardenbirdsurvey.nz/){:target="_blank"}
+
+The national Garden Bird Survey is led by Manaaki Whenua every year for 2 weeks in June & July. It's completed by citizen scientists all over the country and helps researchers analyse NZ bird populations over time. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every garden looks different, but what can you see in yours? Whether you&#39;re in the city, the country, or somewhere in between, you can become a citizen scientist for an hour and count what you see 🕊🦆🦜. All welcome! <br>Find out how » <a href="https://t.co/bUq3Jbu912">https://t.co/bUq3Jbu912</a> <a href="https://t.co/GrhKkGuv3o">pic.twitter.com/GrhKkGuv3o</a></p>&mdash; Garden Bird Survey (@NZGardenBirds) <a href="https://twitter.com/NZGardenBirds/status/1672767251265495040?ref_src=twsrc%5Etfw">June 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br />
+
 ## Glasstrail
 
 A Cyber-security product developed by Theta.

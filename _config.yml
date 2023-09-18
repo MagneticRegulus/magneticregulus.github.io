@@ -36,6 +36,7 @@ show_excerpts: true
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-environment-variables
 
 # Exclude from processing.
 # The following items will not be processed, by default.
